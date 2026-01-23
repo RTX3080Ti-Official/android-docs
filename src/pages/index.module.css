@@ -21,3 +21,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.disclaimer {
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
