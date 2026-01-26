@@ -1,0 +1,49 @@
+# APKs
+
+**APKs** are like programs for your phone. Some of which are already installed on your system (see [System Apps](../system-apps/)).
+
+## File
+
+They are a **ZIP** with the `.apk` file extension.\
+The file structure is the following:
+
+import { FileTree } from '@site/src/components/FileTree';
+
+export const myProject = {
+  name: 'apk',
+  type: 'folder',
+  children: [
+    {
+      name: 'assets',
+      type: 'folder',
+      children: [
+        { name: 'someimage.png', type: 'file' },
+        { name: 'embedwebpage.html', type: 'file' },
+      ],
+    },
+    {
+      name: 'kotlin',
+      type: 'folder',
+      children: [
+        { name: 'annotation', type: 'folder' },
+        { name: 'collections', type: 'folder' },
+        { name: 'coroutines', type: 'folder' },
+        { name: 'internal', type: 'folder' },
+        { name: 'ranges', type: 'folder' },
+        { name: 'reflect', type: 'folder' },
+        { name: 'kotlin.kotlin_builtins', type: 'file' },
+      ],
+    },
+    {
+        name: 'lib',
+        type: 'folder',
+    },
+    { name: 'META-INF', type: 'folder' },
+    { name: 'res', type: 'folder' },
+    { name: 'AndroidManifest.xml', type: 'file' },
+    { name: 'classes.dex', type: 'file' },
+    { name: 'resources.arsc', type: 'file' },
+  ],
+};
+
+<FileTree data={myProject} />

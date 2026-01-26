@@ -1,5 +1,7 @@
 # Website
 
+[![Crowdin](https://badges.crowdin.net/android-docs/localized.svg)](https://crowdin.com/project/android-docs)
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
