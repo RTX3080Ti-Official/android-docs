@@ -5,8 +5,8 @@
   "scripts": {
     "crowdin:download": "crowdin download",
     "docusaurus": "docusaurus",
-    "start": "npm run crowdin:download && docusaurus start",
-    "build": "docusaurus build",
+    "start": "docusaurus start",
+    "build": "npm run crowdin:download && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
