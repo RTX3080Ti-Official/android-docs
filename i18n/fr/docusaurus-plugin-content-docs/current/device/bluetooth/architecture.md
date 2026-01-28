@@ -1,3 +1,0 @@
-# Architecture
-
-A Bluetooth app communicates with the Bluetooth process through Binder. The Bluetooth process uses Java Native Interface (JNI) to communicate with the Bluetooth stack and provides developers with access to various Bluetooth profiles.

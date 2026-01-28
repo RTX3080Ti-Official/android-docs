@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "crowdin:download": "crowdin download",
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "npm run crowdin:download && docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

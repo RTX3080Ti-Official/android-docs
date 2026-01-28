@@ -1,8 +1,0 @@
-ad-services:
-  label: 'Ad Services'
-  permalink: '/ad-services'
-  description: 'Anything related to Ad Services.'
-bluetooth:
-  label: 'Bluetooth'
-  permalink: '/bluetooth'
-  description: 'Anything related to Bluetooth.'
